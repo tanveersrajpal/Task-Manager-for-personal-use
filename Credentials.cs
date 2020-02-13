@@ -29,14 +29,12 @@ namespace Personal_Project
         }
         public void CredentialCheck()
         {
-           
-                this.Hide();
+           this.Hide();
                 if (dash.IsDisposed == true)
                 {
                     dash = new Dashboard();
                 }
-                dash.Show();
-            
+                dash.Show();               
         }
 
         private void TextBox1_KeyDown(object sender, KeyEventArgs e)
